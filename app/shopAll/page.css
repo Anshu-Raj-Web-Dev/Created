@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Styling for the Product Name */
+.product-name {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  font-weight: lighter;
+}
+
+/* General Transition Styling for the Product Card and Browse Section */
+.product-card, .browse-section {
+  transform: translate(-50px, -50px);  /* Starts from top-left */
+  transition: all 0.5s ease;
+  will-change: transform, opacity;  /* Hint for the browser to optimize animation */
+}
+
+/* When visible (the element is in the viewport) */
+.product-card.visible, .browse-section.visible {
+  opacity: 1;
+  transform: translate(0, 0);  /* Transition to original position */
+}
+
+/* For Product Cards */
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-card .product-name {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: var(--secondary-color);
+}
+
+.product-card .product-price {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Browse Section */
+.browse-section {
+  transform: translate(-50px, -50px); /* Starts from top-left */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  width: 18%; /* Reduced the width to 18% for a thinner sidebar */
+  min-width: 200px; /* Prevent the sidebar from becoming too narrow */
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.browse-section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.browse-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.browse-section li {
+  margin-bottom: 1rem;
+}
+
+.browse-section li a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.browse-section li a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* Layout Adjustments */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 6%;
+  text-align: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 1rem;
+  position: relative;
+}
+
+.product-card img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-card .product-name {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+
+.product-card .product-price {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.product-card img:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  section {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .browse-section {
+    width: 20%; /* Reduced to 20% for better responsiveness */
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 3rem 10%;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

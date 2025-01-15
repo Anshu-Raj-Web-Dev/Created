@@ -1,0 +1,79 @@
+.footer-logo {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #ff4d4d;
+  text-transform: uppercase;
+}
+
+/* Footer Links Styling */
+.footer-ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+.footer-ul li {
+  padding: 8px 0;
+}
+
+.footer-ul li a {
+  color: #555;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-ul li a:hover {
+  color: #ff4d4d;
+}
+
+/* Contact Button */
+.contact-btn {
+  display: inline-block;
+  border: 2px solid #ff4d4d;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff4d4d;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  /* margin-right: 70px; */
+}
+
+.contact-btn:hover {
+  background-color: #ff4d4d;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Footer Container */
+.footer {
+  background-color: #f8f8f8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 2rem;
+  }
+
+  .footer-ul li {
+    padding: 6px 0;
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 40px 60px;
+  }
+}
+.copyright{
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+}

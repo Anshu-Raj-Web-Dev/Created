@@ -1,0 +1,58 @@
+body{
+    overflow-x: hidden;
+}
+.article{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-weight: lighter;
+}
+.productName{
+    font-size: 25px;
+}
+.product-quantity{
+    font-size: 18px;
+}
+.product-desc{
+    width: 200px;
+    padding-bottom: 10px;
+}
+.cart-btn{
+    width: 350px;
+    padding: 10px 0;
+    background: #BC4C2A;
+    transition: all ease 0.5s;
+}
+.buy-btn{
+    width: 350px;
+    padding: 10px 0;
+    background: #111111;
+    transition: all ease 0.5s;
+}
+.buy-btn:hover{
+    background: #2b2a2a;
+}
+.cart-btn:hover{
+    background: #b5664e;
+}
+.product-price{
+    font-family: cursive;
+}
+.refund , .product-info , .shipping{
+    color: #BC4C2A;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.refund , .shipping{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 5px;
+}
+.add{
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: -12px;
+}

@@ -1,0 +1,38 @@
+/* Notification container to center the notification */
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .notification-box {
+    background-color: #DE2615; /* Light red background */
+    color: #fafafa; /* Dark red text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-20px); /* Start from slightly above */
+    animation: fadeIn 0.5s forwards, fadeOut 0.5s forwards 2.5s;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-out animation */
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-20px); /* Slide it up */
+    }
+  }
+  

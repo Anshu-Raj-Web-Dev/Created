@@ -1,0 +1,11 @@
+.checkout-btn {
+    width: 250px;
+    background-color: #BC4C2A; /* Dark Red */
+    margin-left: 80px;
+    margin-right: auto;
+  }
+  .cart-container {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-weight: normal;
+  }
+  

@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo-nav {
+  position: relative;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  padding-bottom: 50px;
+  position: absolute;
+  color: #DE2615;
+  top: -100px;
+  left: 135px;
+}
+.nav {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+.nav a {  
+  margin-top: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.nav a:hover {
+  border-bottom: 1px solid #DE2615;
+  color: #de2615;
+}
+.social-btns {
+  margin-left: 20px;
+}
+
+.btn-cart:hover + nav {
+  opacity: 1; /* Show the nav when hovering over the btn-cart */
+  transition: opacity 0.2s ease-in-out; /* Smooth transition */
+}

@@ -1,0 +1,12 @@
+#nprogress .bar {
+    background: red !important; /* Set loading bar color to red */
+    height: 4px; /* Adjust height if needed */
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px red, 0 0 5px red !important;
+}
+
+#nprogress .spinner {
+    display: none !important; /* Hide spinner */
+}
