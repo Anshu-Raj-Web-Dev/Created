@@ -100,7 +100,7 @@ const ProductPage = ({ params }) => {
               />
             </div>
             <div className="w-1/2">
-              <h1 className="productName text-3xl font-semibold mb-4">{product.name}</h1>
+              <h1 className="productName text-3xl font-semibold mb-4">{product.name.replace("'", "&apos;")}</h1>
               <p className="text-gray-500 py-2">SKU: {product.sku}</p>
               <p className="text-red-500 text-2xl mt-4 product-price">{product.price}</p>
               <div className="mt-4">
