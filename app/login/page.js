@@ -103,7 +103,7 @@ const LoginForm = () => {
         </button>
 
         <p className="p">
-          Don't have an account? <Link href="/sign-up"><span className="span">Sign Up</span></Link>
+          Don&apos;t have an account? <Link href="/sign-up"><span className="span">Sign Up</span></Link>
         </p>
 
         <p className="p line">Or With</p>
