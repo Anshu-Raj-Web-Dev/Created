@@ -22,7 +22,7 @@ export default function Home() {
                         </h1>
                         <hr className="w-16 border-t-2 border-gray-400 mx-auto md:mx-0 mb-4" />
                         <p className="text-gray-700 text-xl md:text-xl leading-relaxed">
-                            Discover creative inspiration for your next project. Whether you're sketching, designing, or just looking for ideas, this space is here to spark your creativity. Dive into the process and let your imagination run wild.
+                            Discover creative inspiration for your next project. Whether you&apos;re sketching, designing, or just looking for ideas, this space is here to spark your creativity. Dive into the process and let your imagination run wild.
                         </p>
                     </div>
                     
