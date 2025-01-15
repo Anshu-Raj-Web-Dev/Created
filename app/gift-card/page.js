@@ -19,7 +19,7 @@ export default function GiftCard() {
                     </h1>
                     <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-green-600 mx-auto mb-8"></div>
                     <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-                        Looking for the perfect gift? Our gift cards are a great way to let your loved ones choose exactly what they want from our collection. Whether it's for a birthday, anniversary, or just because, our gift cards are always a thoughtful choice.
+                        Looking for the perfect gift? Our gift cards are a great way to let your loved ones choose exactly what they want from our collection. Whether it&apos;s for a birthday, anniversary, or just because, our gift cards are always a thoughtful choice.
                     </p>
                     <a
                         href="#"
@@ -70,7 +70,7 @@ export default function GiftCard() {
                     {/* Small Note Section */}
                     <div className="mt-16 max-w-lg mx-auto text-lg text-gray-600">
                         <p>
-                            Can't decide on an amount? No problem! Our gift cards are available in any denomination. Just choose a custom amount at checkout, and you're all set.
+                            Can&apos;t decide on an amount? No problem! Our gift cards are available in any denomination. Just choose a custom amount at checkout, and you&apos;re all set.
                         </p>
                     </div>
                 </div>
