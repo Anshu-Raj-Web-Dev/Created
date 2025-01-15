@@ -50,7 +50,7 @@ export default function Contact() {
                     Get in Touch
                 </h1>
                 <p className="text-lg text-gray-600 text-center mb-10 leading-relaxed sm:text-2xl">
-                    We’d love to hear from you! Please send us your thoughts, questions, or feedback.
+                    We&apos;d love to hear from you! Please send us your thoughts, questions, or feedback.
                 </p>
 
                 <form onSubmit={handleSubmit} className="bg-white p-8 shadow-2xl rounded-2xl space-y-6">
