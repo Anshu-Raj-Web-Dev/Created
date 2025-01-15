@@ -18,7 +18,7 @@ export default function OurStory() {
                     Our Story
                 </h1>
                 <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed sm:text-2xl">
-                    A journey of passion, creativity, and a relentless pursuit to turn dreams into reality. Here's how it all began.
+                    A journey of passion, creativity, and a relentless pursuit to turn dreams into reality. Here&apos;s how it all began.
                 </p>
 
                 <div className="space-y-16">
@@ -36,7 +36,7 @@ export default function OurStory() {
                             Overcoming Challenges
                         </h2>
                         <p className="text-lg text-gray-700">
-                            Juggling schoolwork with my growing passion for design wasn’t easy. But every obstacle became an opportunity to learn. I spent countless late nights refining my craft, growing one step at a time. There were moments of doubt, but my drive never wavered.
+                            Juggling schoolwork with my growing passion for design wasn&apos;t easy. But every obstacle became an opportunity to learn. I spent countless late nights refining my craft, growing one step at a time. There were moments of doubt, but my drive never wavered.
                         </p>
                     </section>
 
@@ -45,7 +45,7 @@ export default function OurStory() {
                             The Leap
                         </h2>
                         <p className="text-lg text-gray-700">
-                            After years of hard work and dedication, I took the leap—turning my passion into a professional pursuit. With a strong vision and a portfolio that spoke for itself, I began building something truly special. That’s when everything started to fall into place.
+                            After years of hard work and dedication, I took the leap—turning my passion into a professional pursuit. With a strong vision and a portfolio that spoke for itself, I began building something truly special. That&apos;s when everything started to fall into place.
                         </p>
                     </section>
 
@@ -54,7 +54,7 @@ export default function OurStory() {
                             The Future
                         </h2>
                         <p className="text-lg text-gray-700">
-                            Now, we are focused on the next chapter—creating designs that not only inspire but also make an impact. The journey continues, but we are more determined than ever to push the boundaries of what’s possible and build a brand that reflects who we are and what we stand for.
+                            Now, we are focused on the next chapter—creating designs that not only inspire but also make an impact. The journey continues, but we are more determined than ever to push the boundaries of what&apos;s possible and build a brand that reflects who we are and what we stand for.
                         </p>
                     </section>
                 </div>
