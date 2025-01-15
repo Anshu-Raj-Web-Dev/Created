@@ -113,7 +113,7 @@ export default function ProductPage() {
                     <Link href={`/product/${product.id}`}>
                       <img src={product.image} alt={product.name} className="product-img" />
                       <div className="product-details">
-                        <p className="product-name">{product.name}</p>
+                        <p className="product-name">{product.name.replace("'", "&apos;")}</p>
                       </div>
                     </Link>
                   </div>
