@@ -5,12 +5,6 @@ import React from 'react';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
-</style>
-
-
 const products = [
   {
     id: "2",
