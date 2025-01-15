@@ -5,9 +5,9 @@ import emailjs from 'emailjs-com';
 
 export default function Contact() {
     const [formData, setFormData] = useState({
-        from_name: '',
-        email: '',
-        message: ''
+        from_name: "",
+        email: "",
+        message: ""
     });
 
     const handleInputChange = (e) => {
